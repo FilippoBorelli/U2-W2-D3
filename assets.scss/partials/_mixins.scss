@@ -1,0 +1,12 @@
+@mixin borderStyle($myBorder: 5px solid black) {
+    border: $myBorder;
+  }
+  @mixin titleStyle($myTitle: bold) {
+    font-size: 40px;
+    font-weight: $myTitle;
+    text-align: center;
+  }
+  @mixin imgStyle($myimg: 35%) {
+    width: $myimg;
+    border-radius: 15px;
+  }
